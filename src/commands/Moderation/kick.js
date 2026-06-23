@@ -6,7 +6,7 @@ import { ModerationService } from '../../services/moderationService.js';
 import { handleInteractionError, TitanBotError, ErrorTypes } from '../../utils/errorHandler.js';
 
 export default {
-    data: new .()
+    data: new SlashCommandBuilde ()
     .setName("kick")
     .setDescription("Kick a user from the server")
     .addUserOption((option) =>
